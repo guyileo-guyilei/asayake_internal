@@ -1,13 +1,15 @@
 # Asayake Taiko Tryouts Attendance Tracker
 The program `tryouts_attendance.exe` is designed easily keep track of tryoutee attendance and can be used each fall quarter with a specific Google Form setup. Program written by Matthew Alegrado, Internal Director 2024-25, discord @ gaiiuss.
 
+To download this, press the green **Code** button and click "Download ZIP". Then extract that onto your computer and follow the steps in the next section.
+
 ## Setup
 Each Google Form should have an automatic email address collection that retrieves the school email of each tryoutee. This means that your own UCSD email needs to be the owner of the Google Form, not the Internal account. The email shouldn't be an entry in the form (as people tend to misspell the email and screw up results) but the "Verified" option for the "Collect email addresses" setting in the form. 
 
 #### Column Names
 The names of the first two columns in the Google Sheet linked to each attendance form should be "Timestamp" and "Email Address". Identifiers such as the person's name and phone number should stay the same between forms (whatever name you choose must be written in `parameters.json`, see "Parameters"). Phone numbers aren't required for the program to run before all data from tryouts is collected.
 
-#### Files
+#### Attendance Spreadsheets
 There should be one attendance sheet from each week that must be converted to a .csv file, which can be done by selecting `File > Download > Comma seperated value (.csv)` if on Google Sheets, and then placing it into a folder called `inputs` in the current directory. Likewise, make sure that no other files are in that folder. 
 
 #### Parameters
