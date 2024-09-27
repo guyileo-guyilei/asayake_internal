@@ -1,0 +1,18 @@
+{
+    "dates": {
+      "first_tryout": "10-6-2024",
+      "first_makeup": "10-7-2024"
+    },
+    "parameters": {
+      "num_weeks": "5",
+      "week_num": "5",
+      "required_sunday_practices": "3",
+      "required_total_practices": "4",
+      "data_2023": "False"
+    },
+    "columns": {
+      "email": "Email Address",
+      "name": "Full Name",
+      "phone_number": "Phone Number"
+    }
+}
